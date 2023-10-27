@@ -29,6 +29,7 @@ dependencies {
     /* Modules */
 
     /* Libraries */
+    implementation(libs.com.google.android.material)
     implementation(libs.androidx.core.core.splashscreen)
     implementation(libs.bundles.androidx.datastore.datastore)
     implementation(libs.com.google.protobuf)

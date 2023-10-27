@@ -184,6 +184,21 @@ val androidXComposeLibraryTree = tree(Library(group = "androidx")) {
 val comLibraryTree = tree(Library(group = "com")) {
     tree(Library(group = "google")) {
         tree(
+            Library(group = "android")
+        ) {
+            tree(
+                Library(
+                    group = "material", artifactsGroups = listOf(
+                        ArtifactsGroup(
+                            name = "material",
+                            artifacts = listOf("material"),
+                            version = "1.10.0"
+                        )
+                    )
+                )
+            )
+        }
+        tree(
             Library(
                 group = "dagger", artifactsGroups = listOf(
                     ArtifactsGroup(

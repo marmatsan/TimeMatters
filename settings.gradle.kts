@@ -26,6 +26,10 @@ dependencyResolutionManagement {
 
 rootProject.name = "time-matters"
 include(
-    ":app"
+    ":app",
+    ":core:core_data",
+    ":core:core_domain",
+    ":core:core_ui",
+    ":onboarding:onboarding_ui"
 )
  
