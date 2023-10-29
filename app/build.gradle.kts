@@ -27,6 +27,11 @@ android {
 
 dependencies {
     /* Modules */
+    implementation(projects.core.coreData)
+    implementation(projects.core.coreDomain)
+    implementation(projects.core.coreUi)
+
+    implementation(projects.onboarding.onboardingUi)
 
     /* Libraries */
     implementation(libs.com.google.android.material)

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_page_1">
+        About Time Matters
+    </string>
+    <string name="title_page_2">
+        Time management
+    </string>
+    <string name="title_page_3">
+        Add your own time
+    </string>
+    <string name="title_page_4">
+        Seelect the apps you want to track
+    </string>
+    <string name="description_page_1">
+        Time Matters helps you save the most valuable currency we have: time
+    </string>
+    <string name="description_page_2">
+        Monitor the screen time of the applications you use and put it into perspective
+    </string>
+    <string name="description_page_3">
+        Use the built-in timer to consciously add time to the total time used on your mobile device
+    </string>
+    <string name="description_page_4">
+        Create tasks in which you would like to dedicate that time, and achieve your goals
+    </string>
+
+    <string name="cd_image_page_1">
+        Image placeholder page 1
+    </string>
+</resources>
